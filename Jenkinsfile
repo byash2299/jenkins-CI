@@ -17,6 +17,11 @@ pipeline{
                 echo 'Deploying to staging enviornment'
             }
         }
+        stage('Deploy Production'){
+            steps{
+                echo 'Deploying to production enviornment'
+            }
+        }
     }
         
 }
